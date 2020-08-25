@@ -12,7 +12,7 @@ class ApostasCadastradas extends Controller
 
     public function index()
     {
-        return view('admin.pages.cadastraaposta.cadastra');
+        return view('admin.pages.apostacadastrada.aposta');
     }
 
   

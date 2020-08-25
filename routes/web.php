@@ -16,6 +16,7 @@ Auth::routes();
 Route::get('admin/home', 'Admin\Home@index')->name('home.dashboard');
 Route::get('admin/home', 'Admin\Create@index')->name('home.create');
 Route::get('admin/cadastra', 'Admin\CadastraAposta@index')->name('cadastraaposta.cadastra');
+Route::get('admin/apostas', 'Admin\ApostasCadastradas@index')->name('apostacadastrada.aposta');
 
 /*
 *  Authentication
