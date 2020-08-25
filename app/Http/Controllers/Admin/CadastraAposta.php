@@ -14,6 +14,9 @@ class CadastraAposta extends Controller
     {
         return view('admin.pages.cadastraaposta.cadastra');
     }
-
-  
+    public function create()
+    {
+        echo ("TO AQUI");
+        return view('admin.pages.cadastraaposta.create');
+    }
 }

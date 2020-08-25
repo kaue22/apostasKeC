@@ -13,7 +13,6 @@ class Pontos extends Controller
     public function index()
     {
         return view('admin.pages.pontos.total');
-    }
-
-  
+    } 
+    
 }
