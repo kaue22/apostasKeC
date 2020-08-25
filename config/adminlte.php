@@ -249,6 +249,12 @@ return [
 
         ],
 
+        [
+            
+            'text' => 'Pontos Totais',
+            'url'  => 'admin/pontos',
+
+        ],
 
     ],
     /*
