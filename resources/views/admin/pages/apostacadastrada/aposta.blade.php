@@ -14,4 +14,14 @@
     <p class="card-text">Aposta do kauê contra a cris</p>
   </div>
 </div>
+
+<a href="#">
+<div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+  <div class="card-header">teste</div>
+  <div class="card-body">
+    <h5 class="card-title">Aposta de teste</h5>
+    <p class="card-text">Aposta de teste</p>
+  </div>
+</div>
+</a>
 @endsection
