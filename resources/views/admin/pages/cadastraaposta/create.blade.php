@@ -9,11 +9,11 @@
 @section('content')
     <div class="card">
         <div class="card-body">
-        <form action="" class="form">
+        <form action="" class="form" method="POST">
 
-
+    @csrf
             <div class ="form-group">
-                <label>A</label>
+                <label>MELHOR SÉRIE DE COMÉDIA</label>
                 <input type="text" name="name" class ="form-control" placeholder="A">
             </div>
             <div class ="form-group">
@@ -29,7 +29,9 @@
                 <input type="text" name="name" class ="form-control" placeholder="D">
             </div>
         </form>
-
+        <button type="submit" class="btn btn-success">
+            Enviar
+        </button>
         </div>
     </div>
 @endsection

@@ -238,12 +238,6 @@ return [
 
         [
             
-            'text' => 'Cadastrar Aposta',
-            'url'  => 'admin/cadastra',
-
-        ],
-        [
-            
             'text' => 'Apostas em Andamento',
             'url'  => 'admin/apostas',
 
